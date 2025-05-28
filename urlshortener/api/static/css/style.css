@@ -1,0 +1,35 @@
+body {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.url-card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-truncate {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* Add these to your existing CSS */
+#retrieveResult {
+    transition: all 0.3s ease;
+}
+
+.alert-success {
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+    color: #0f5132;
+}
+
+.row {
+    margin-bottom: 20px;
+}
